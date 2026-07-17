@@ -22,7 +22,7 @@ Each tool is its own repository so you can grab just the part you need.
 
 | Repository | What it does | Stack |
 |---|---|---|
-| **`commons`** | Shared config, templates, plugins and the publishing flow used across the pipeline. | Python |
+| **`commons`** | Shared config, templates, plugins and the publishing flow used across the pipeline (repo: `tikCommons`). | Python |
 | **`DaVinciPipe`** | Syncs the DaVinci Resolve timeline with Kitsu production tracking. | Python |
 | **`houdini-tools`** | In-house Houdini HDAs, scripts and hsite setup (caching, render-farm submit, FX). | Houdini / Python |
 | **`nuke-tools`** | Nuke `init.py` / `menu.py`, a gizmo auto-loader and a lens-flare tool. | Nuke / Python |
@@ -31,8 +31,8 @@ Each tool is its own repository so you can grab just the part you need.
 | **`dcp-tools`** | Builds a Digital Cinema Package (a DCP-o-matic wrapper). | Python |
 | **`pipeline-launchers`** | The batch launchers that start each app with the right environment. | Batch |
 
-> Status: tools are being published one at a time with fresh git history (so no
-> historic secrets travel). Some repos may not be live yet — see each repo's README.
+> All repos are published with fresh git history (so no historic secrets travel) and
+> MIT-licensed — take what you need.
 
 ---
 
