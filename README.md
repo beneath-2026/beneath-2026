@@ -28,7 +28,7 @@ Each tool is its own repository so you can grab just the part you need.
 | **`nuke-tools`** | Nuke `init.py` / `menu.py`, a gizmo auto-loader and a lens-flare tool. | Nuke / Python |
 | **`cacheManager`** | Tags and cleans up Houdini caches on the farm. | Python / PySide6 |
 | **`renderPal-tools`** | Render-farm backup + hang-detection scripts for RenderPal. | Python |
-| **`dcp`** | Builds a Digital Cinema Package (a DCP-o-matic wrapper). | Python |
+| **`dcp-tools`** | Builds a Digital Cinema Package (a DCP-o-matic wrapper). | Python |
 | **`pipeline-launchers`** | The batch launchers that start each app with the right environment. | Batch |
 
 > Status: tools are being published one at a time with fresh git history (so no
